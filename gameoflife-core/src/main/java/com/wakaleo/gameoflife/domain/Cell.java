@@ -21,7 +21,7 @@ public enum Cell {
 	// Functions identically to default getter ( getSymbol() )
     @Override
     public String toString() {
-        return;
+        return symbol;
     }
 
 	// Function used for creating a cell given a string
